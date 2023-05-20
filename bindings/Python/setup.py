@@ -1,6 +1,6 @@
 # coding=utf-8
-from distutils.core import setup, Extension
+from setuptools import setup
 
-setup(name='_judger',
+setup(name='judger',
       version='2.1',
-      packages=["_judger"])
+      packages=["judger"])
